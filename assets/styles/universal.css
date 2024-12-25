@@ -12,10 +12,10 @@ h1 {
 }
 
 .topbar {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
-    color: fff;
+    background-color: #111;
+    color: #fff;
     padding: 10px 0;
     z-index: 1000;
 }
@@ -26,4 +26,6 @@ a {
 
 .topbar a {
     text-transform: lowercase;
+    color: #aaf;
+    text-decoration: none;
 }
