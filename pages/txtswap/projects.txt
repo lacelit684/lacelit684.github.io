@@ -1,0 +1,10 @@
+<div class="contentHeader">
+    <h2>projects</h2>
+</div>
+<div class="content">
+    <ul>
+        <li>Project A</li>
+        <li>Project B</li>
+        <li>Project C</li>
+    </ul>
+</div>

@@ -1,0 +1,9 @@
+<div class="contentHeader">
+    <h2>home</h2>
+</div>
+<div class="contentText">
+    <p>
+        Welcome to my website. It is under construction for now.
+        I just gutted this website and I am rebuilding it from scratch.
+    </p>
+</div>

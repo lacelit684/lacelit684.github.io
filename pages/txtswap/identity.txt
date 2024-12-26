@@ -1,0 +1,6 @@
+<div class="contentHeader">
+    <h2>identity</h2>
+</div>
+<div class="content">
+    <p>I am [placeholder].</p>
+</div>

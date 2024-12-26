@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html lang="en-gb">
     <head>
+        <!-- Metadata -->
         <meta charset="utf-8">
-        <title>home - lexlt's website</title>
-        <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico"> <!-- TODO: Think up and make a new favicon and replace current favicon -->
-        <link rel="stylesheet" type="text/css" href="../assets/styles/universal.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Lexlt's Website">
         <meta name="keywords" content="Lexlt, Lexlt's Website">
         <meta name="author" content="Lexlt">
-        <meta http-equiv="refresh" content="0; URL=./pages/home.html/">
+        <!-- Appearance -->
+        <title>home - lexlt's website</title>
+        <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico"> <!-- TODO: REPLACE FAVICON after making one -->
+        <link rel="stylesheet" type="text/css" href="../assets/styles/universal.css">
+        <!-- Scripts -->
+        <script src="./assets/scripts/contentswap.js"></script>
     </head>
     <body>
-        redirecting to <a href="./pages/home.html">home</a>...
+        <!-- TODO: IMPROVE STYLING by editing universal.css -->
+        <div class="header">
+            <div class="topbar">
+                <a href="./home.html">home</a>
+                <a href="./identity.html">identity</a>
+                <a href="./projects.html">projects</a>
+            </div>
+            <h1>lexlt's website</h1>
+        </div>
+        <!-- IDEA: All of this is going into a separate .txt file for each page - there will be ONE (main site) .html file and I just have to swap this div out using JS -->
+        <div id="content">
+            <div class="contentHeader">
+                <h2>enable js</h2>
+            </div>
+            <div class="contentText">
+                <p>
+                    If you can see this, you might want to enable JavaScript to see the content of this website.
+                </p>
+            </div>
+        </div>
     </body>
 </html>
